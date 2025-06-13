@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    background-image: url("Los\ festejos\ por\ el\ aniversario\ 30\ de\ «Definitely\ Maybe»\ de\ Oasis.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: brightness(0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+.logo {
+    width: 500px;
+    margin: 0 auto 20px;
+    display: block;
+    filter: drop-shadow(2px 2px 4px black);
+}
+
+#countdown {
+    font-size: 2.2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 1opx 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    font-family: 'Fira Code', monospace;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 4px black;
+    margin-top: 1opx;
+    letter-spacing: 2px;
+    backdrop-filter: blur(4px);
+}
